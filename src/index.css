@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link {
+  padding: 0.25rem 0.75rem;
+  color: #aaa;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: inherit;
+  transition: color 0.3s ease-in-out, border-bottom 0.5s ease;
+  border-bottom: 2px solid transparent;
+}
+.link:hover {
+  color: #fff;
+  border-bottom: 2px solid steelblue;
+}
+.items-heading {
+  text-align: left;
+  margin-left: 2.5rem;
+}
+.items {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}
+.item {
+  position: relative;
+}
+.item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  object-fit: cover;
+  border: 2px solid steelblue;
+}
+.item .count {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: steelblue;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #fff;
+}
+.toppings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toppings-header span {
+  background: #aaa;
+  padding: 0.25rem;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: bold;
+}
+.toppings {
+  margin-top: 2.5rem;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+.toppings li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+}
+.toppings li .select {
+  text-align: left;
+}
+.toppings li .select h6 {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.toppings li .select span {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #777;
+}
+.toppings li .plus-minus-btns {
+  height: 100%;
+}
+.toppings li .plus-minus-btns button {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  font-size: 1rem;
+}
+.toppings li .plus-minus-btns span {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  font-size: 1.35rem;
+}
+.total {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.light-red {
+  background: #e87c87;
+}
+.dark-red {
+  background: red;
 }

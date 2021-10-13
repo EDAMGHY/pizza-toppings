@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Pepperoni",
+    "price": 3.5,
+    "image": "https://media.istockphoto.com/photos/single-slice-of-pepperoni-meatisolated-on-white-with-path-shot-from-picture-id1153708773?b=1&k=20&m=1153708773&s=170667a&w=0&h=1RvsBX4_XgkrBh2oKNKpdR08mFG5bBz06OkGk7qL4Fo="
+  },
+  {
+    "id": 2,
+    "name": "Feta",
+    "price": 2.5,
+    "image": "https://media.istockphoto.com/photos/raw-organic-white-feta-cheese-picture-id577945994?b=1&k=20&m=577945994&s=170667a&w=0&h=lazB0Jgd3J59VYDmnknMbvI2aLURPZ2Sh9dU1MN-Q1E="
+  },
+  {
+    "id": 3,
+    "name": "Spices",
+    "price": 0.5,
+    "image": "https://media.istockphoto.com/photos/herbs-and-spices-in-bowels-picture-id1297420369?b=1&k=20&m=1297420369&s=170667a&w=0&h=4g6W-cnBEVeEaKG_4-dTOs6s86Q-XsrmIQbtErEi8PY="
+  },
+  {
+    "id": 4,
+    "name": "Swiss cheese",
+    "price": 3,
+    "image": "https://media.istockphoto.com/photos/piece-of-cheese-isolated-picture-id500454774?b=1&k=20&m=500454774&s=170667a&w=0&h=LiZmFxdEedquBeiihcKt4yf-akb7xutax4XLpG-mA-0="
+  },
+  {
+    "id": 5,
+    "name": "Cold cuts",
+    "price": 5,
+    "image": "https://media.istockphoto.com/photos/ham-and-cheese-sandwich-fixings-picture-id176887742?b=1&k=20&m=176887742&s=170667a&w=0&h=m8iHBQANnT5JDIrCBYE-uR39aJ-OBWx9j4cuMzyuc4E="
+  },
+  {
+    "id": 6,
+    "name": "Mozzarella",
+    "price": 1.5,
+    "image": "https://media.istockphoto.com/photos/mozzarella-cheese-with-basil-leaves-isolated-on-white-background-picture-id1277334841?b=1&k=20&m=1277334841&s=170667a&w=0&h=GEf5vBgyibFUtxpyrLpbmp2Ac9EUWbWmjNsvn0NTX3M="
+  }
+]
